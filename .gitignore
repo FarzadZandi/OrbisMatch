@@ -1,0 +1,45 @@
+# Confidential source data and derived tabular data
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.ods
+*.csv
+*.tsv
+*.json
+*.jsonl
+
+# Input, output, and company-processing directories
+/Company Tables/
+/files/
+/orbis_run/
+/Logs and Errors/
+/input/
+/inputs/
+/output/
+/outputs/
+
+# Other generated or potentially data-bearing artifacts
+*.db
+*.db-journal
+*.ldb
+*.log
+*.png
+*.zip
+*.pdf
+*.baf
+*.baj
+*.dat
+*.old
+*.pma
+*.pb
+
+# Local runtime and tool state
+__pycache__/
+*.py[cod]
+.agents/
+.codex_tmp/
+.smoke_test/
+
+# Local operational notes (contain institution-specific access details)
+/Orbis TUM.md
